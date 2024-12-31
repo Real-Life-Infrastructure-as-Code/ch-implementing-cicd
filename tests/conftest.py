@@ -2,7 +2,6 @@ import aws_cdk as cdk
 import pytest
 
 from aws_cdk.assertions import Template
-
 from infra.stack import CiCdStack
 
 
