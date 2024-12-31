@@ -26,11 +26,7 @@ def test_bucket(template: Template):
             "VersioningConfiguration": {"Status": "Enabled"},
             "BucketEncryption": {
                 "ServerSideEncryptionConfiguration": [
-                    {
-                        "ServerSideEncryptionByDefault": {
-                            "SSEAlgorithm": "AES256"
-                        }
-                    }
+                    {"ServerSideEncryptionByDefault": {"SSEAlgorithm": "AES256"}}
                 ]
             },
         },
